@@ -131,8 +131,8 @@
               <a class="text-violet-700 hover:text-violet-500 fab fa-github text-4xl ml-3" href="https://github.com/aferilydhtm"></a>
             </div>
             <h6 class="text-violet-700 font-bold pb-1 text-center md:text-left" data-aos="fade-up">Music</h6>
-            <audio controls height="50x" width="500px" class="text-center md:text-left -ml-5">
-              <source src="audio/music2.mpeg" width="400">
+            <audio controls height="50x" width="500px" class="text-center md:text-left -ml-5" autoplay>
+              <source src="audio/music2.mpeg" type="audio/mpeg">
             </audio>
           </div>
           <!-- Program-program -->
@@ -158,10 +158,10 @@
                   </div>
                   <form name="anak-it-contact-form">
                     <div class="flex-col">
-                      <input type="text" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="nama" placeholder="Nama Lengkap">
-                      <input type="email" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="email" placeholder="Email">
-                      <input type="text" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="no_telp" placeholder="No.Telp">
-                      <textarea name="pesan" placeholder="pesan" class="my-3 mx-4 px-7 py-3 w-5/6 rounded-md drop-shadow-md" id="" cols="30" rows="5"></textarea>
+                      <input type="text" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="nama" placeholder="Nama Lengkap" autocomplete="off" required>
+                      <input type="email" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="email" placeholder="Email" autocomplete="off" required>
+                      <input type="text" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="no_telp" placeholder="No.Telp" autocomplete="off" required>
+                      <textarea name="pesan" placeholder="pesan" class="my-3 mx-4 px-7 py-3 w-5/6 rounded-md drop-shadow-md" id="" cols="30" rows="5" autocomplete="off" required></textarea>
                       <button type="submit" class="btn-kirim my-3 mx-4 py-2 px-8 border rounded-md bg-violet-700 hover:bg-violet-500 duration-200 text-white">Send</button>
                       <button type="button" class="btn-loading hidden inline-flex items-center px-4 py-2 font-semibold leading-6 text-sm shadow rounded-md text-white bg-indigo-500 hover:bg-indigo-400 transition ease-in-out duration-150 cursor-not-allowed ml-4" disabled="">
                         <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
