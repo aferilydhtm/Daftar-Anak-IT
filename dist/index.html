@@ -44,7 +44,7 @@
 </head>
 <body>
     <!-- navbar -->
-    <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center pb-3 pt-3 md:pb-5">
+    <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center pb-5 pt-3 md:pb-5">
         <div class="flex-1 flex justify-between items-center">
             <img src="img/undraw_studying_re_deca.svg" class="w-14 pt-2 md:pt-4 md:w-16 md:ml-5 -ml-2" alt="logo" />
         </div>
@@ -93,7 +93,7 @@
                 >
             </div>
 
-            <div class="w-full pt-3 px-5 md:px-66 md:h-full md:pt-10 md:pb-10" data-aos="fade-left">
+            <div class="w-full pt-20 px-5 md:px-66 md:h-full md:pt-10 md:pb-10 order-first md:order-last" data-aos="fade-left">
                 <img src="img/Discord-Logo.png" alt="Discord-logo" />
             </div>
         </div>
@@ -108,16 +108,16 @@
         <h1 class="text-center text-4xl text-extrabold text-violet-700 pb-10 px-20" data-aos="zoom-in"><strong>CARA DAFTAR</strong></h1>
         <div class="grid grid-cols-12 px-3 md:pr-10 md:pl-10 font-poppins text-sm">
           <!-- syarat pendaftaran dan ketentuan -->
-          <div class="col-span-12 md:col-span-6 px-14 mb-7 text-base md:pt-4">
+          <div class="col-span-12 md:col-span-6 px-14 mb-5 text-base md:pt-4">
             <h6 class="text-violet-700 font-bold pb-1 text-center md:text-left" data-aos="fade-up">Langkah-Langkah</h6>
             <hr class="pb-1 text-blue-900" />
             <ol class="list-decimal" data-aos="fade-right">
-              <li>Pergi ke <a href="#contact" class="text-blue-500">Pendaftaran</a></li>
+              <li>Pergi ke <a href="#contact" class="text-blue-500 hover:text-blue-800">Pendaftaran</a></li>
               <li>Masukkan Nama Lengkap, Email, No.Telp anda</li>
               <li>untuk bagian Pesan, Silahkan anda mengetik "Ingin Join Discord Anak IT"</li>
               <li>Jika sudah, permintaan anda akan di proses</li>
               <li>Permintaan undangan akan kami kirimkan via WA/Gmail</li>
-              <li>Jika belum memiliki akun Discord, Silahkan buat akun terlebih dahulu melalui link berikut: <a href="https://discord.com/" class="text-blue-500">https://discord.com/</a></li>
+              <li>Jika belum memiliki akun Discord, Silahkan buat akun terlebih dahulu melalui link berikut: <a href="https://discord.com/" class="text-blue-500 hover:text-blue-800">https://discord.com/</a></li>
             </ol>
             <br />
           </div>
@@ -126,12 +126,12 @@
           <!-- Program-program -->
           <div class="col-span-12 md:col-span-6 px-14 mb-7 text-base md:pt-4">
             <h6 class="text-violet-700 font-bold pb-1 text-center md:text-left" data-aos="fade-up">Social Media</h6>
-            <div class="pb-5 ml-0 md:ml-0 text-center md:text-left">
+            <div class="pb-8 ml-0 md:ml-0 text-center md:text-left">
               <a class="text-violet-700 hover:text-violet-500 fab fa-instagram text-4xl" href="https://www.instagram.com/aferil_ydtma/"></a>
               <a class="text-violet-700 hover:text-violet-500 fab fa-github text-4xl ml-3" href="https://github.com/aferilydhtm"></a>
             </div>
             <h6 class="text-violet-700 font-bold pb-1 text-center md:text-left" data-aos="fade-up">Music</h6>
-            <audio controls height="50x" width="500px" class="text-center md:text-left -ml-5" autoplay>
+            <audio controls height="50x" width="500px" class="text-center sm:text-center md:text-left -ml-5" autoplay>
               <source src="audio/music2.mpeg" type="audio/mpeg">
             </audio>
           </div>
@@ -160,8 +160,8 @@
                     <div class="flex-col">
                       <input type="text" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="nama" placeholder="Nama Lengkap" autocomplete="off" required>
                       <input type="email" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="email" placeholder="Email" autocomplete="off" required>
-                      <input type="text" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="no_telp" placeholder="No.Telp" autocomplete="off" required>
-                      <textarea name="pesan" placeholder="pesan" class="my-3 mx-4 px-7 py-3 w-5/6 rounded-md drop-shadow-md" id="" cols="30" rows="5" autocomplete="off" required></textarea>
+                      <input type="text" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="no_telp" placeholder="No.Telp/HP" autocomplete="off" required>
+                      <textarea name="pesan" placeholder="Pesan" class="my-3 mx-4 px-7 py-3 w-5/6 rounded-md drop-shadow-md" id="" cols="30" rows="5" autocomplete="off" required></textarea>
                       <button type="submit" class="btn-kirim my-3 mx-4 py-2 px-8 border rounded-md bg-violet-700 hover:bg-violet-500 duration-200 text-white">Send</button>
                       <button type="button" class="btn-loading hidden inline-flex items-center px-4 py-2 font-semibold leading-6 text-sm shadow rounded-md text-white bg-indigo-500 hover:bg-indigo-400 transition ease-in-out duration-150 cursor-not-allowed ml-4" disabled="">
                         <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
